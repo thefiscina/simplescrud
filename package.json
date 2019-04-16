@@ -1,5 +1,5 @@
 {
-  "name": "simplesCrud",
+  "name": "simpleCrud",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -36,7 +36,8 @@
     "path": "^0.12.7",
     "rxjs": "6.0.0",
     "typescript": "~2.7.2",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "adm-zip": ">=0.4.11"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
