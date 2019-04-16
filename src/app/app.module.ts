@@ -21,6 +21,8 @@ import { CategoriasComponent } from './components/categorias/categorias.componen
 import { PostsDestaquesComponent } from './components/posts-destaques/posts-destaques.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PostsComponent } from './components/posts/posts.component';
+import { PostComponent } from './pages/post/post.component';
+import { PrincipalComponent } from './pages/principal/principal.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { PostsComponent } from './components/posts/posts.component';
     CategoriasComponent,
     PostsDestaquesComponent,
     FooterComponent,
-    PostsComponent
+    PostsComponent,
+    PostComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,
