@@ -23,6 +23,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { PostComponent } from './pages/post/post.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
+import { CategoriasLateralComponent } from './components/categorias-lateral/categorias-lateral.component';
+import { ContainerPostComponent } from './components/container-post/container-post.component';
+import { AutorPostComponent } from './components/autor-post/autor-post.component';
+import { ComentariosPostComponent } from './components/comentarios-post/comentarios-post.component';
+import { TagsPostComponent } from './components/tags-post/tags-post.component';
+import { PostShareComponent } from './components/post-share/post-share.component';
 
 
 @NgModule({
@@ -39,7 +45,13 @@ import { PrincipalComponent } from './pages/principal/principal.component';
     FooterComponent,
     PostsComponent,
     PostComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    CategoriasLateralComponent,
+    ContainerPostComponent,
+    AutorPostComponent,
+    ComentariosPostComponent,
+    TagsPostComponent,
+    PostShareComponent
   ],
   imports: [
     BrowserModule,
